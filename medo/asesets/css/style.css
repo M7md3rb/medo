@@ -1,0 +1,41 @@
+:root {
+    /* COLORS */    
+ --color-primary: #46E210;
+ --color-text: black;
+
+    /*FONTS*/
+--font-primary: 'Open Sans', Helvetica, Arial, sans-serif;
+--font-size-text: 13px;
+--font-size-title: 20px;
+--font-size-section-title: 48px;
+    /*SIZE*/
+--size-primary: 25px;
+--margin-primary: var(--size-primary);
+--padding-primary: var(--size-primary);
+
+
+}
+.hero {
+    background-color: #30A208;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.hero1 {
+    background-image: url(../img/22.jpg) no-repeat center center /cover;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.cards {
+    background-color: #30A208;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
